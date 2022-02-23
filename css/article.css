@@ -1,0 +1,58 @@
+/* SIDE HEADER */
+main{
+    display: flex;
+}
+header{
+    width: 6%;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: white;
+}
+
+.fixed-header{
+    position: fixed;
+    width: 6%;
+}
+.logo img{
+    max-width: 60px;
+    margin-top: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+header nav li{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+
+nav a img{
+    transition: all 0.2s ease-in-out;
+}
+
+nav a img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li:nth-child(5){
+    padding-top: 50px;
+    border-top: 1px solid black;
+}
+
+/* MIDLE */
+
+#artigo{
+    width: 70%;
+}
+
+#profile{
+    width: 24%;
+    background-color: black;
+}
