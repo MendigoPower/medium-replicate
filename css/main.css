@@ -256,3 +256,11 @@ footer h3 {
   font-size: 14px;
   line-height: 20px;
 }
+
+.article-tag {
+  background-color: rgb(242, 242, 242);
+  color: rgb(117, 117, 117);
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
+}
