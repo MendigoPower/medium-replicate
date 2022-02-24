@@ -56,6 +56,21 @@ nav ul li:nth-child(5){
 
 /* MIDLE */
 
+.profile-top{
+    display: flex;
+}
+
+.profile-top img{
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.description-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #artigo{
     width: 65%;
 }
@@ -83,13 +98,9 @@ nav ul li:nth-child(5){
     margin: 20px 0;
 }
 
-#profile{
-<<<<<<< HEAD
-    width: 24%;
-    background-color: black;
-}
+/* 3 COLUN PROFILE */
 
-=======
+#profile{
     width: 29%;
     background-color: white;
     border-left: 1px solid  rgba(0, 0, 0, 0.2);
@@ -104,5 +115,113 @@ nav ul li:nth-child(5){
     padding: 40px;
 }
 
+button, form input{
+    border-radius: 20px;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
 
->>>>>>> d38932920343089bf7f695d5f83315c53b250623
+.get-started{
+    color: white;
+    background-color: #191919;
+    padding: 12px 95px;
+    margin-right: 40px;
+}
+
+.sign-in{
+    background-color: transparent;
+    color: darkgreen;
+}
+form{
+    margin: 35px 0;
+}
+form input{
+  padding: 12px;
+  width: 100%;
+ border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#profile h3, .profile-top h3{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#profile h4, .profile-top h4{
+    font-size: 14px;
+    color: gray;
+    padding: 6px 0;
+}
+
+#profile p{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 17px;
+}
+
+.btn-follow{
+    background-color: #1a8917;
+    color: white;
+    padding: 12px 24px;
+}
+
+.btn-email{
+    background-color: #1a8917;
+    color: white;
+    padding: 12px 14px;
+}
+
+#profile ul{
+    margin-top: 26px;
+}
+
+#profile ul li:first-child{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#profile ul li:last-child{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#profile ul li{
+   font-size: 16px;
+   padding: 5px 0;
+}
+
+.txt-legal{
+    font-size: 11px!important;
+}
+
+/* FIXED BAR */
+#fixed-bar{
+    position: fixed;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    width: 64.9%;
+    background-color: white;
+    height: 40px;
+}
+
+#fixed-bar li{
+    color: gray;
+    font-size: 20px;
+}
+
+#fixed-bar ul li{
+    display: inline-block;
+}
+
+.reactions{
+    float: left;
+    padding: 10px 120px;
+}
+
+.r-sociais{
+    float: right;
+    padding: 10px 120px;
+}
