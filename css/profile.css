@@ -1,16 +1,24 @@
 .articles-profile {
     display: flex;
     flex-direction: row;   
-    border-bottom: solid 1px rgba(117, 117, 117, 1);
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .box {
-    padding: 50px 160px;
+    padding: 50px 120px;
 }
 
 .home {
-    font-size: 12px;
+    font-size: 14px;
+    background: none;
+    border: none;
+    padding: 0 3px 15px 0;
+    width: 700;
+    border-bottom: solid 1px rgb(81 81 81);
+}
+
+.menu {
+    border-bottom: solid 1px rgb(233 233 233);;
 }
 
 .box span {
@@ -20,7 +28,7 @@
     box-sizing: inherit;
     display: block;
     cursor: pointer;   
-    padding: 10px 100px 10px 0;
+    padding: 30px 100px 10px 0;
 }
 
 body {
@@ -29,36 +37,50 @@ body {
     color: #000;
   }
 
-h1 {
+#profile-page h1 {
     font-size: 42px;
     line-height: 52px;
     color: rgb(25, 25, 25);
     font-weight: 700;
+    padding: 15px 0 30px 0;
 }
 
-h2 {
+#profile-page h2 {
     line-height: 28px;
-    font-size: 22px;
+    font-size: 20px;
     color: rgba(41, 41, 41, 1);
     font-weight: 700;
-    padding: 10px 100px 10px 0;
+    padding: 10px 80px 10px 0;
 }
 
-.articles-profile p {
+#profile-page p {
     line-height: 24px;
-    font-size: 16px;
+    font-size: 14px;
     color: rgba(41, 41, 41, 1);
     font-weight: 400; 
     text-overflow: ellipsis;
     overflow: hidden;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 
 .box img {
     vertical-align: middle;
     width: 112px;
     height: 112px; 
-    padding-top: 50px;
-       
+    padding-top: 65px;      
 }
 
+#profile-page {
+    width: 65%;
+}
+
+.footer-article {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px rgb(233 233 233);
+    padding-bottom: 35px;
+}
+
+.footer-article img {
+    float: right;
+}
