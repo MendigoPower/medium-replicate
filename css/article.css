@@ -84,9 +84,16 @@ nav ul li:nth-child(5){
 }
 
 #profile{
+<<<<<<< HEAD
+    width: 24%;
+    background-color: black;
+}
+
+=======
     width: 29%;
     background-color: white;
     border-left: 1px solid  rgba(0, 0, 0, 0.2);
 }
 
 
+>>>>>>> d38932920343089bf7f695d5f83315c53b250623
