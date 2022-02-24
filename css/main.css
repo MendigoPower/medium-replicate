@@ -213,7 +213,8 @@ footer h3 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-right: 20px;
+  margin: 0 20px 56px 0;
+  width: 60%;
 }
 
 .article-content h3 {
@@ -254,4 +255,12 @@ footer h3 {
   color: rgba(117, 117, 117, 1);
   font-size: 14px;
   line-height: 20px;
+}
+
+.article-tag {
+  background-color: rgb(242, 242, 242);
+  color: rgb(117, 117, 117);
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
 }
