@@ -446,15 +446,14 @@ nav {
   flex-grow: 1;
   float: right;
   display: flex;
-  max-width: 100%;
   width: 334px;
   padding-right: 10%;
-  align-items: flex-end;
+  padding-bottom: 0;
 }
 
 .five-section-logo1 {
   width: 11%;
-  margin: 10px 0 10px 40px;
+  margin: 10px 10px 20px 40px;
   display: inline-block;
 }
 
@@ -467,14 +466,16 @@ nav {
 /****** Sex Section ******/
 
 ._01-two-col {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #000;
   background-color: #fff;
+}
+
+.col {
+  width: 50%;
+  border: 1px none #000;
 }
 
 .col.bifold {
@@ -483,21 +484,17 @@ nav {
   align-items: flex-start;
   color: #000;
   width: 50%;
-  padding: 30px;
   border: 1px none #000;
 }
 
 .header-1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
   font-family: 'Gt super text book', Georgia, sans-serif;
   color: #000;
   font-size: 7.3vw;
   line-height: 100%;
   font-weight: 400;
   letter-spacing: -0.35vw;
+  padding: 30px 0 40px 30px
 }
 
 .col.bi-row {
@@ -548,8 +545,6 @@ nav {
   line-height: 127%;
 }
 
-
-
 .paragraph {
   position: relative;
   margin-bottom: 20px;
@@ -582,3 +577,76 @@ nav {
   letter-spacing: -0.2px;
   cursor: pointer;
 }
+
+
+/****** Seven Section ******/
+
+
+._01-two-col {
+  display: flex;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+.col.mobile-hide.no-padding._50 {
+  border-right-style: none;
+}
+
+.col.mobile-hide.no-padding {
+  padding: 0px;
+  border-right: 1px solid #000;
+}
+
+.col {
+  width: 50%;
+  border: 1px none #000;
+}
+
+.marketing-image-wrap {
+  display: flex;
+  height: 100%;
+}
+
+.footer-animation {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.col.trifold.border-line {
+  border-left: 1px solid #000;
+}
+
+.col.border-line {
+  border-right: 1px solid #000;
+}
+
+.col.trifold {
+  display: flex;
+  align-items: flex-start;
+  color: #000;
+}
+
+/****** Footer ******/
+
+.footer-img-size {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding: 55px;
+}
+
+.footer-box {
+  display: flex;
+  width: 100%;
+}
+
+.footer-link-legal {
+  font-size: 9px;
+  margin-left: 45%;
+  word-spacing: 60px;
+  padding-bottom: 35px;
+  
+    }
