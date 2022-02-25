@@ -15,6 +15,7 @@
     padding: 0 3px 15px 0;
     width: 700;
     border-bottom: solid 1px rgb(81 81 81);
+    border-radius: 0!important;
 }
 
 .menu {
@@ -63,7 +64,7 @@ body {
     padding-right: 80px;
 }
 
-.box img {
+.articles-profile img {
     vertical-align: middle;
     width: 112px;
     height: 112px; 
@@ -79,8 +80,27 @@ body {
     flex-direction: row;
     border-bottom: solid 1px rgb(233 233 233);
     padding-bottom: 35px;
+    justify-content: space-between;
+    width: 72%;
 }
 
 .footer-article img {
-    float: right;
+    padding-left: 39%;
+}
+
+.footer-article p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    padding-left: 10px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: row;
+}
+.content-left p {
+    font-size: 10px;
+    padding-top: 2px;
 }
