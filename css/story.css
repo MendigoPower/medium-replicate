@@ -410,15 +410,20 @@ nav {
 
 /****** Five Section ******/
 
-.five.section {
-
+.five-section{
+  padding-right: 100px;
+  background-color: rgb(182, 229, 164);
 }
 
 .five-section-container {
-  background-color: rgb(182, 229, 164);
   border-bottom: 1px solid #000;
   display: inline-block;
   width: 100%;
+
+  background-image: url(../images/iphone-screen.png);
+  background-position: right 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .five-section-container-flex {
