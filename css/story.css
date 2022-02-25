@@ -341,23 +341,64 @@ nav {
   width: 600px;
   margin: 0 auto;
   padding: 50px 0;
+  display: flex;
+}
+
+.four-section-columns {
+  border-top: 1px solid #000;
+  display: flex;
 }
 
 .four-section-column1 {
+  width: 50%;
+  padding: 30px 0 0 30px;
+  border-right: 1px solid #000;
+}
+
+.four-section-column1-text1 {
     background-color: transparent;
     font-family: 'Gt super text book', Georgia, sans-serif;
     color: #000;
     font-size: 3.1vw;
     letter-spacing: -0.12vw;
-    border-right: 1px solid #000;
+}
+
+.four-section-column1-pic1 {
+  display: flex;
+  height: 160px;
+  margin-top: 44px;
+}
+
+.four-section-column1-p1 {
+  font-family: "Soehne web buch", sans-serif;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .four-section-column2 {
-  color: #000;
-  font-family: 'Soehne web buch', sans-serif;
-  font-size: 30px;
-  line-height: 110%;
-  font-weight: 400;
-  max-width: 70%;
-  margin-top: 55px;
+  width: 50%;
+  padding: 30px 0 0 30px;
+  border-right: 1px solid #000;
+}
+
+.four-section-column2-text2 {
+    background-color: transparent;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 3.1vw;
+    letter-spacing: -0.12vw;
+}
+
+.four-section-column2-pic2 {
+  display: flex;
+  height: 160px;
+  margin-top: 44px;
+}
+
+.four-section-column2-p2 {
+  font-family: "Soehne web buch", sans-serif;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
